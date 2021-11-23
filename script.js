@@ -120,7 +120,7 @@ function addItemClickListener(event) {
 }
 
 function createProductList(items) {
-  const section = document.getElementsByClassName("items")[0];
+  const section = document.getElementsByClassName('items')[0];
   items.results.forEach((item) =>
     section.appendChild(
       createProductItemElement({
@@ -166,4 +166,3 @@ window.onload = () => {
   createCartFromLocalStorage();
   configureEmptyCartButton();
 };
-
