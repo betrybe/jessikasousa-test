@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding-top: 20px;
 }
 
 .items {
@@ -80,5 +81,23 @@
 
 .total-price {
   font-weight: bold;
+}
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+	background: url(header.png);
+}
+
+footer {
+	text-align: center;
+	background: url("footer.png");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 15px;
+	margin: 20px 0 0;
 }
 
